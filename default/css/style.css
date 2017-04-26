@@ -1,11 +1,11 @@
 @CHARSET "UTF-8";
-
 * {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     outline: none;
 }
+
 body {
     background: url(../images/bg.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
@@ -13,41 +13,48 @@ body {
     -o-background-size: cover;
     background-size: cover;
     padding-top: 50px;
+    font-family: Microsoft YaHei;
+    font-size: 16px;
 }
 
-.divcss5{
-    border:2px dashed #918597;
-    height:32px;
-    min-width:102px;
-    vertical-align:middle;
-    display:table-cell;
-    text-align:center;
+.divcss5 {
+    border: 2px dashed #918597;
+    height: 34px;
+    min-width: 102px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
 }
+
 .source {
-    position:relative;
-    padding:5px 10px;
-    min-width:100px;
-    min-height:30;
-    line-height:inherit;
-    text-align:left;
-    cursor:pointer;
+    position: relative;
+    padding: 5px 10px;
+    min-width: 100px;
+    min-height: 30;
+    line-height: inherit;
+    text-align: left;
+    cursor: pointer;
 }
+
 .source h4 {
-    margin:0;
-    padding:0;
-    font-size:inherit;
-    line-height:inherit;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
 }
+
 .source i {
-    position:absolute;
-    right:5px;
-    top:9px;
-    cursor:pointer;
+    position: absolute;
+    right: 5px;
+    top: 9px;
+    cursor: pointer;
 }
-.ui-state-hover{
-    border:2px dashed blue;
+
+.ui-state-hover {
+    border: 2px dashed blue;
 }
-.ui-state-active{
-    border:2px dashed #494e8f;
-    background-color:#9b95c9;
+
+.ui-state-active {
+    border: 2px dashed #494e8f;
+    background-color: #9b95c9;
 }
